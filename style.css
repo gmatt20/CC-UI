@@ -6,11 +6,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-<<<<<<< HEAD
   color: white;
 }
 body{
-  background-color: #66545e;
+  background: linear-gradient(90deg, #ff3111, #ff4113, #ff5115, #ff6017, #ff7019, #ff7f1b, #ff8e1e, #ff9c20, #ffab22, #ffb924, #ffc626, #ffd428);
   padding: 200px;
   display: flex;
   align-items: center;
@@ -58,6 +57,4 @@ body{
 }
 .date{
   font-size: 23px;
-=======
->>>>>>> f81d65cf1185d6499cb3d6ffd7977ddb60116069
 }
