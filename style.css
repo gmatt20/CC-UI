@@ -1,6 +1,9 @@
 /* Import Google Font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+
+/* General Configurations */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,19 +11,29 @@
   font-family: "Poppins", sans-serif;
   color: white;
 }
+html{
+  height: 100%;
+}
 body{
   background: linear-gradient(90deg, #ff3111, #ff4113, #ff5115, #ff6017, #ff7019, #ff7f1b, #ff8e1e, #ff9c20, #ffab22, #ffb924, #ffc626, #ffd428);
   padding: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100% 
 }
+
+/* Credit Card Container Alignment */
+
 .CC-container{
   min-width: 500px;
   background-image: url(./images/bg.png);
   padding: 30px;
   border-radius: 30px;
 }
+
+/* Top of Credit Card Configuration */
+
 .top{
   display: flex;
   justify-content: space-around;
@@ -35,10 +48,9 @@ body{
   margin-left: 10px;
   font-size: 20px;
 }
-/* .top, .right{
-  display: flex;
-  align-items: center;
-} */
+
+/* Middle of Credit Card Configuration */
+
 .middle{
   display: flex;
   flex-direction: column;
@@ -47,6 +59,9 @@ body{
   margin-top: 10px;
   font-size: 23px;
 }
+
+/* Bottom of Credit Card Configuration */
+
 .bottom{
   display: flex;
   justify-content: space-between;
