@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+<<<<<<< HEAD
   color: white;
 }
 body{
@@ -57,4 +58,6 @@ body{
 }
 .date{
   font-size: 23px;
+=======
+>>>>>>> f81d65cf1185d6499cb3d6ffd7977ddb60116069
 }
